@@ -210,7 +210,7 @@ const Footer = () => {
             </div>
             {/*  */}
             <div className="flex xl:gap-[1.5rem] gap-[0.75rem] font-montserrat uppercase font-semibold tracking-[0.25em] xl:text-[0.55rem] text-[0.35rem] items-center justify-center">
-              <div className="text-blue-950">see what we're up to</div>
+              <div className="text-blue-950">see what we&apos;re up to</div>
               {/*  */}
               <div className="flex xl:gap-[1.25rem] gap-[0.675rem] text-lg items-center justify-center">
                 <motion.div
