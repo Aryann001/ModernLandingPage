@@ -103,26 +103,26 @@ const HeroSection = () => {
         </motion.div>
         {/*  */}
         <div className="absolute">
-          <h1 className=" translate-x-[5%] leading-[0.8em] tracking-[-0.07em] text-6xl lg:text-9xl font-extrabold text-white font-inclusive">
+          <h1 className=" translate-x-[5%] leading-[0.8em] tracking-[-0.07em] text-5xl md:text-6xl lg:text-9xl font-extrabold text-white font-inclusive">
             conversion
           </h1>
-          <h1 className="translate-x-[-5%] leading-[0.8em] flex items-center justify-center gap-[5rem] tracking-[-0.07em] text-6xl lg:text-9xl font-extrabold text-white font-inclusive">
+          <h1 className="translate-x-[-5%] leading-[0.8em] flex items-center justify-center md:gap-[5rem] gap-[2rem] tracking-[-0.07em] text-5xl md:text-6xl lg:text-9xl font-extrabold text-white font-inclusive">
             through{" "}
             <span className="flex items-center justify-center">
               <Link
                 href="/"
-                className="text-black tracking-normal font-medium bg-yellow-300 rounded-full text-base cursor-pointer px-8 py-4"
+                className="text-black tracking-normal font-medium bg-yellow-300 rounded-full md:text-base text-xs cursor-pointer md:px-8 md:py-4 px-4 py-2"
               >
                 Discover what we do
               </Link>
             </span>
           </h1>
-          <h1 className="translate-x-[15%] leading-[0.8em] tracking-[-0.07em] text-6xl lg:text-9xl font-extrabold text-white font-inclusive">
+          <h1 className="translate-x-[15%] leading-[0.8em] tracking-[-0.07em] text-5xl md:text-6xl lg:text-9xl font-extrabold text-white font-inclusive">
             immersion
           </h1>
         </div>
         {/*  */}
-        <div className="absolute xl:bottom-[-25%] bottom-[-5%] -left-[15%] z-[5]">
+        <div className="absolute bottom-[-25%] xl:flex hidden -left-[15%] z-[5]">
           <AnimatePresence>
             <motion.div
               onHoverStart={hoverStartHandler}

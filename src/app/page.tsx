@@ -9,12 +9,12 @@ import { Fragment } from "react";
 export default function Home() {
 
   return (
-    <Fragment>
+    <main className="w-full overflow-hidden">
       <HeroSection />
       <CarouselSection />
       <FeaturedSection />
       <GetInTouchSection />
       <Footer />
-    </Fragment>
+    </main>
   );
 }

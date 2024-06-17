@@ -29,7 +29,7 @@ const CarouselCard = () => {
     <motion.div
       onHoverStart={hoverStartHandler}
       onHoverEnd={hoverEndHandler}
-      className="relative h-[25rem] w-[30rem] cursor-default"
+      className="relative md:h-[25rem] h-[50%] md:w-[30rem] w-[85%] cursor-default"
     >
       <div className="h-full w-full inset-0 overflow-hidden rounded-[2rem]">
         <motion.img
@@ -45,7 +45,7 @@ const CarouselCard = () => {
         animate={hoverController}
         className="z-[2] w-full absolute opacity-0 translate-y-[10%] -bottom-[10%] items-center justify-center flex"
       >
-        <div className="flex w-3/4 flex-col gap-[1rem] -rotate-[5deg] text-left text-white">
+        <div className="flex w-3/4 flex-col gap-[1rem] md:rotate-[-5deg] text-left text-white">
           <p className=" text-wrap font-montserrat font-extralight text-[1.75rem] tracking-tighter leading-[1.05]">
             Bringing live-guided immersive virtual tours to a global audience
           </p>

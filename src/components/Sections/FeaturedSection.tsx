@@ -123,14 +123,14 @@ const FeaturedSection = () => {
 
 
   return (
-    <section className="flex w-full overflow-hidden items-center justify-center flex-col gap-[6rem] py-[4rem]">
+    <section className="flex w-full overflow-hidden items-center justify-center flex-col gap-[6rem] md:py-[4rem] py-[2rem]">
       <div>
         <h2 className=" font-montserrat tracking-tight font-semibold text-white uppercase text-xs">
           Featured Insights
         </h2>
       </div>
       {/*  */}
-      <div className="grid xl:grid-cols-2 grid-cols-1 gap-x-[1rem] gap-y-[12rem] box-border px-[4rem]">
+      <div className="grid xl:grid-cols-2 grid-cols-1 gap-x-[1rem] md:gap-y-[12rem] gap-y-[6rem] box-border md:px-[4rem]">
         <motion.div
           onHoverStart={cardHoverStartHandler1}
           onHoverEnd={cardHoverEndHandler1}
@@ -140,7 +140,7 @@ const FeaturedSection = () => {
             <p className=" text-xs font-semibold text-purple-500 font-montserrat">
               3D
             </p>
-            <h1 className=" text-4xl tracking-tighter text-wrap font-inclusive">
+            <h1 className=" md:text-4xl text-2xl tracking-tighter text-wrap font-inclusive">
               Unleashing immersive experience: elevating your brand with custom
               3D modelling
             </h1>
@@ -170,7 +170,7 @@ const FeaturedSection = () => {
             <p className=" text-xs font-semibold text-purple-500 font-montserrat">
               3D
             </p>
-            <h1 className=" text-4xl tracking-tighter text-wrap font-inclusive">
+            <h1 className=" md:text-4xl text-2xl tracking-tighter text-wrap font-inclusive">
               Unleashing immersive experience: elevating your brand with custom
               3D modelling
             </h1>
@@ -200,7 +200,7 @@ const FeaturedSection = () => {
             <p className=" text-xs font-semibold text-purple-500 font-montserrat">
               3D
             </p>
-            <h1 className=" text-4xl tracking-tighter text-wrap font-inclusive">
+            <h1 className=" md:text-4xl text-2xl tracking-tighter text-wrap font-inclusive">
               Unleashing immersive experience: elevating your brand with custom
               3D modelling
             </h1>
@@ -230,7 +230,7 @@ const FeaturedSection = () => {
             <p className=" text-xs font-semibold text-purple-500 font-montserrat">
               3D
             </p>
-            <h1 className=" text-4xl tracking-tighter text-wrap font-inclusive">
+            <h1 className=" md:text-4xl text-2xl tracking-tighter text-wrap font-inclusive">
               Unleashing immersive experience: elevating your brand with custom
               3D modelling
             </h1>

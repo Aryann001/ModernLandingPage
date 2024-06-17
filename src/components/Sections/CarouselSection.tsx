@@ -12,7 +12,7 @@ import Link from "next/link";
 import useMouseLocation from "../useMouseLocation";
 import { useRef } from "react";
 
-const cards = [{}, {}, {}, {}, {}];
+const cards = [{}, {}, {}];
 
 const CarouselSection = () => {
   const [ref, measure] = useMeasure();
@@ -64,14 +64,14 @@ const CarouselSection = () => {
   const scrollX = useTransform(scrollYProgress, [0, 1], ["3%", "-3%"]);
 
   return (
-    <section className=" min-h-screen w-full bg-zinc-900 flex items-start justify-center pt-[16rem] pb-[10rem]">
+    <section className=" min-h-screen w-full bg-zinc-900 flex items-start justify-center pt-[6rem] xl:pt-[16rem] pb-[10rem]">
       <div className="h-full w-full flex flex-col items-center justify-center">
-        <div className="flex w-max gap-[5rem] cursor-default translate-x-[8%] justify-center ">
-          <h3 className=" font-inclusive font-bold uppercase text-xs tracking-wider text-purple-500">
+        <div className="flex w-max md:gap-[5rem] gap-[1rem] cursor-default xl:translate-x-[8%] justify-center ">
+          <h3 className=" font-inclusive font-bold uppercase sm:text-xs text-[0.5rem] tracking-wider text-purple-500">
             Selected work
           </h3>
           {/*  */}
-          <p className="font-inclusive font-medium xl:text-4xl text-2xl text-yellow-50 tracking-tight leading-tight">
+          <p className="font-inclusive font-medium xl:text-4xl sm:text-2xl text-lg text-yellow-50 tracking-tight leading-tight">
             Enjoy some of our best work
             <br />
             in immersive <span className=" text-purple-500">web</span>,<br />{" "}
@@ -86,7 +86,7 @@ const CarouselSection = () => {
           ref={refParent}
           className="w-full relative overflow-hidden flex py-[8rem]"
         >
-          <div ref={inViewRef} className="w-full rotate-[5deg] flex items-center justify-center">
+          <div ref={inViewRef} className="w-full rotate-[5deg] hidden md:flex items-center justify-center">
             <motion.div
               drag="x"
               dragConstraints={{
@@ -101,6 +101,12 @@ const CarouselSection = () => {
                 <CarouselCard key={index} />
               ))}
             </motion.div>
+          </div>
+
+          <div className="flex w-full items-center justify-center md:hidden flex-col gap-[2rem]">
+            {cards.map((card, index)=>(
+              <CarouselCard key={index} />
+            ))}
           </div>
           {/*  */}
           <motion.div
