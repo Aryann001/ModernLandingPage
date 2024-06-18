@@ -103,7 +103,7 @@ const CarouselSection = () => {
             </motion.div>
           </div>
 
-          <div className="flex w-full items-center justify-center md:hidden flex-col gap-[2rem]">
+          <div className="flex w-full items-center justify-center md:hidden flex-col gap-[5rem]">
             {cards.map((card, index)=>(
               <CarouselCard key={index} />
             ))}
@@ -131,7 +131,7 @@ const CarouselSection = () => {
             <motion.div
               onHoverStart={hoverStartHandler}
               onHoverEnd={hoverEndHandler}
-              className="relative px-8 py-3 flex flex-col rounded-full border-purple-500 border-2 text-lg font-inclusive tracking-tighter overflow-hidden cursor-pointer"
+              className="relative sm:px-8 sm:py-3 px-4 py-2 flex flex-col rounded-full border-purple-500 border-2 sm:text-lg text-base font-inclusive tracking-tighter overflow-hidden cursor-pointer"
             >
               <motion.span
                 animate={upperControls}

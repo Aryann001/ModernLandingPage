@@ -79,7 +79,7 @@ const HeroSection = () => {
 
   return (
     <section className=" cursor-default h-screen w-full bg-zinc-900 flex items-start justify-center">
-      <div className="h-full w-10/12 relative flex items-center justify-center translate-y-[5%]">
+      <div className="h-full w-10/12 relative flex items-center justify-center sm:translate-y-[5%]">
         <motion.div
           animate={{
             rotateX: `${-((y - middleY) / middleY) * 22.5}deg`,
@@ -90,7 +90,7 @@ const HeroSection = () => {
             perspective: `${15000}px`,
           }}
           transition={{ type: "just", duration: 0.5, ease: "linear" }}
-          className="flex overflow-hidden shadow-2xl items-center justify-center relative w-10/12 h-1/2 xl:w-[50%] xl:h-[77%] rounded-[2em]"
+          className="flex overflow-hidden shadow-2xl items-center justify-center relative w-10/12 sm:h-1/2 h-3/4 xl:w-[50%] xl:h-[77%] rounded-[2em]"
         >
           <video
             className=" object-cover h-full w-full"

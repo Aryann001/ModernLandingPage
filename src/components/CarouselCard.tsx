@@ -29,9 +29,9 @@ const CarouselCard = () => {
     <motion.div
       onHoverStart={hoverStartHandler}
       onHoverEnd={hoverEndHandler}
-      className="relative md:h-[25rem] h-[50%] md:w-[30rem] w-[85%] cursor-default"
+      className="relative md:h-[25rem] h-max md:w-[30rem] w-[85%] cursor-default"
     >
-      <div className="h-full w-full inset-0 overflow-hidden rounded-[2rem]">
+      <div className="md:h-full h-[70%] w-full inset-0 overflow-hidden rounded-[2rem]">
         <motion.img
           animate={hoverImageScaleController}
           className="h-full w-full object-cover pointer-events-none"
@@ -43,10 +43,10 @@ const CarouselCard = () => {
 
       <motion.div
         animate={hoverController}
-        className="z-[2] w-full absolute opacity-0 translate-y-[10%] -bottom-[10%] items-center justify-center flex"
+        className="z-[2] w-full md:absolute relative md:opacity-0 opacity-[1] translate-y-[10%] -bottom-[10%] items-center justify-center flex"
       >
-        <div className="flex w-3/4 flex-col gap-[1rem] md:rotate-[-5deg] text-left text-white">
-          <p className=" text-wrap font-montserrat font-extralight text-[1.75rem] tracking-tighter leading-[1.05]">
+        <div className="flex md:w-3/4 w-11/12 flex-col gap-[1rem] md:rotate-[-5deg] text-left text-white">
+          <p className=" text-wrap font-montserrat font-extralight md:text-[1.75rem] text-[1.25rem] tracking-tighter leading-[1.05]">
             Bringing live-guided immersive virtual tours to a global audience
           </p>
           <h3 className=" text-wrap font-inclusive font-extrabold text-[2rem] tracking-[-0.1em] leading-[1.05]">

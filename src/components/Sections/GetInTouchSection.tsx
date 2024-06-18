@@ -12,7 +12,7 @@ const GetInTouchSection = () => {
           <span className="flex items-center justify-center">
             <Link
               href="/"
-              className="text-black tracking-tighter font-semibold bg-yellow-300 rounded-full text-base cursor-pointer px-8 py-4"
+              className="text-black tracking-tighter font-semibold bg-yellow-300 rounded-full sm:text-base text-sm cursor-pointer sm:px-8 px-4 sm:py-4 py-2 "
             >
               Get in touch
             </Link>

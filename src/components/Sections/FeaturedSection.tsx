@@ -257,7 +257,7 @@ const FeaturedSection = () => {
           <motion.div
             onHoverStart={hoverStartHandler}
             onHoverEnd={hoverEndHandler}
-            className="relative px-8 py-3 flex flex-col rounded-full border-purple-500 border-2 text-lg font-inclusive tracking-tighter overflow-hidden cursor-pointer"
+            className="relative sm:px-8 sm:py-3 px-4 py-2 flex flex-col rounded-full border-purple-500 border-2 sm:text-lg text-base font-inclusive tracking-tighter overflow-hidden cursor-pointer"
           >
             <motion.span
               animate={upperControls}
