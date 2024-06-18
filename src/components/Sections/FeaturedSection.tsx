@@ -137,14 +137,14 @@ const FeaturedSection = () => {
           className="flex relative w-full items-center justify-center"
         >
           <div className=" w-4/5 flex flex-col gap-[2rem]">
-            <p className=" text-xs font-semibold text-purple-500 font-montserrat">
+            <p className=" text-xs font-semibold text-green-500 font-montserrat">
               3D
             </p>
             <h1 className=" md:text-4xl text-2xl tracking-tighter text-wrap font-inclusive">
               Unleashing immersive experience: elevating your brand with custom
               3D modelling
             </h1>
-            <p className="w-max text-base font-inclusive tracking-tighter font-semibold border-b-2 border-purple-500">
+            <p className="w-max text-base font-inclusive tracking-tighter font-semibold border-b-2 border-green-500">
               Continue reading
             </p>
           </div>
@@ -167,14 +167,14 @@ const FeaturedSection = () => {
           className="flex relative w-full items-center justify-center"
         >
           <div className=" w-4/5 flex flex-col gap-[2rem]">
-            <p className=" text-xs font-semibold text-purple-500 font-montserrat">
+            <p className=" text-xs font-semibold text-yellow-500 font-montserrat">
               3D
             </p>
             <h1 className=" md:text-4xl text-2xl tracking-tighter text-wrap font-inclusive">
               Unleashing immersive experience: elevating your brand with custom
               3D modelling
             </h1>
-            <p className="w-max text-base font-inclusive tracking-tighter font-semibold border-b-2 border-purple-500">
+            <p className="w-max text-base font-inclusive tracking-tighter font-semibold border-b-2 border-yellow-500">
               Continue reading
             </p>
           </div>
@@ -227,14 +227,14 @@ const FeaturedSection = () => {
           className="flex relative w-full items-center justify-center"
         >
           <div className=" w-4/5 flex flex-col gap-[2rem]">
-            <p className=" text-xs font-semibold text-purple-500 font-montserrat">
+            <p className=" text-xs font-semibold text-green-500 font-montserrat">
               3D
             </p>
             <h1 className=" md:text-4xl text-2xl tracking-tighter text-wrap font-inclusive">
               Unleashing immersive experience: elevating your brand with custom
               3D modelling
             </h1>
-            <p className="w-max text-base font-inclusive tracking-tighter font-semibold border-b-2 border-purple-500">
+            <p className="w-max text-base font-inclusive tracking-tighter font-semibold border-b-2 border-green-500">
               Continue reading
             </p>
           </div>
