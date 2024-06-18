@@ -43,7 +43,7 @@ const CarouselCard = () => {
 
       <motion.div
         animate={hoverController}
-        className="z-[2] w-full md:absolute relative md:opacity-0 opacity-[1] md:translate-y-[10%] translate-y-[2%] md:bottom-[-10%] items-center justify-center flex"
+        className="z-[2] w-full md:absolute relative md:opacity-0 opacity-[1] md:translate-y-[10%] translate-y-[4%] md:bottom-[-10%] items-center justify-center flex"
       >
         <div className="flex md:w-3/4 w-11/12 flex-col gap-[1rem] md:rotate-[-5deg] text-left text-white">
           <p className=" text-wrap font-montserrat font-extralight md:text-[1.75rem] text-[1.25rem] tracking-tighter leading-[1.05]">
