@@ -200,7 +200,7 @@ const Footer = () => {
           {/*  */}
           <motion.div
             style={{ translateY: parallaxDiv }}
-            className="flex sm:flex-row flex-col sm:gap-0 gap-[3.5rem] justify-between mx-[3rem] sm:py-[3rem] pb-[3rem] pt-[1rem] border-t-2 border-blue-950/15"
+            className="flex sm:flex-row flex-col sm:gap-0 gap-[3.5rem] justify-between mx-[3rem] sm:py-[3rem] pb-[1rem] pt-[1rem] border-t-2 border-blue-950/15"
           >
             <div className="flex sm:w-3/4 sm:gap-0 gap-[3.5rem] sm:flex-row flex-col-reverse justify-between">
               <div className="flex xl:gap-[1rem] sm:gap-[0.5rem] gap-[1rem] font-montserrat uppercase font-semibold tracking-[0.25em] xl:text-[0.55rem] sm:text-[0.35rem] text-[0.75rem] items-center justify-center sm:flex-nowrap flex-wrap text-blue-950">
